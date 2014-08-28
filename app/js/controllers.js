@@ -3,8 +3,12 @@
 /* Controllers */
 
 angular.module('myApp.controllers', [])
-  .controller('MyCtrl1', ['$scope', function($scope) {
+  .controller('TaskListCtrl', ['$scope', function($scope) {
+  	$scope.isDetailsVisible = false;
 
+  	$scope.toggleDetails = function() {
+  		$scope.isDetailsVisible = !$scope.isDetailsVisible;
+  	};
   }])
   .controller('MyCtrl2', ['$scope', function($scope) {
 
