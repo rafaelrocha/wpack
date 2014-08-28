@@ -38,13 +38,96 @@
   </div>
 
   <div class="container">
-    <div class="row">
-      <div class="col-xs-12 col-sm-12">
-        <div ng-view></div>  
-      </div>
-    </div>
-  </div>
 
+      <div class="row row-offcanvas row-offcanvas-right">
+
+        <div class="col-xs-12 col-sm-8">
+          <p class="pull-right visible-xs">
+            <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
+          </p>
+          
+          <div class="row">
+            <div class="col-6 col-xs-12 col-sm-4">
+              <h2>Tarefas Diretas</h2>
+              <hr>
+              <div>
+                <h4>Continuar feio</h4>
+                <p>Prazo: 07/03/2014</p>
+                <p>Emissão: Rafael Russo</p>
+                <p>Continuar sendo exatamente do jeito
+                Lucas Fernandes de ser.</p>
+              </div>
+              <hr>
+              <div>
+                <h4>Continuar feio</h4>
+                <p>Prazo: 07/03/2014</p>
+                <p>Emissão: Rafael Russo</p>
+                <p>Continuar sendo exatamente do jeito
+                Lucas Fernandes de ser.</p>
+              </div>
+            </div>
+            <div class="col-6 col-xs-12 col-sm-4">
+              <h2>Tarefas Habilitadas</h2>
+              <hr>
+              <div>
+                <h4>Continuar feio</h4>
+                <p>Prazo: 07/03/2014</p>
+                <p>Emissão: Rafael Russo</p>
+                <p>Continuar sendo exatamente do jeito
+                Lucas Fernandes de ser.</p>
+              </div>
+            </div>
+            <div class="col-6 col-xs-12 col-sm-4">
+              <h2>Tarefas Enviadas</h2>
+              <hr>
+              <div>
+                <h4>Continuar feio</h4>
+                <p>Prazo: 07/03/2014</p>
+                <p>Emissão: Rafael Russo</p>
+                <p>Continuar sendo exatamente do jeito
+                Lucas Fernandes de ser.</p>
+              </div>
+              <hr>
+              <div>
+                <h4>Continuar feio</h4>
+                <p>Prazo: 07/03/2014</p>
+                <p>Emissão: Rafael Russo</p>
+                <p>Continuar sendo exatamente do jeito
+                Lucas Fernandes de ser.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-6 col-sm-4 sidebar-offcanvas" id="sidebar" role="navigation">
+          <div class="panel panel-default">
+            <div class="panel-heading">Detalhamento da Interface</div>
+            <div class="panel-body">
+              <p>Prazo: 08/03/2013</p>
+              <p>Emissão: Rafael Russão</p>
+              <p>Líder: Lucas Lindo</p>
+              <p>Equipe: Solo</p>
+              <p>Área: Design</p>
+              <p>Criação da identidade visual
+              da interface do site. O visual
+              deve ser limpo e intuitivo, visto
+              o objetivo do programa ser
+              utilizado por usuários com
+              baixo conhecimento técnico. O
+              descritivo deve conter as várias
+              telas do programa, explicitando
+              os componentes escondidos e
+              as drop-down lists.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr>
+    </div>
+
+  <div ng-view></div>  
   <div>Angular seed app: v<span app-version></span></div>
 
   
@@ -58,5 +141,7 @@
   <script src="js/controllers.js"></script>
   <script src="js/filters.js"></script>
   <script src="js/directives.js"></script>
+
+  <script src="js/debt-tech.js"></script>
 </body>
 </html>
